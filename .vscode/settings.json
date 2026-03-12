@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.cpp": "cpp",
+    "ctime": "cpp",
+    "algorithm": "cpp",
+    "iostream": "cpp"
+  },
+  "[cpp]": {
+    "editor.tabSize": 2,
+  },
+  
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ '$fileName' -o '$workspaceRoot/build/$fileNameWithoutExt' -std=c++23 -Wall -Wpedantic -Wextra && echo 'compilation ends.' && '$workspaceRoot/build/$fileNameWithoutExt'",
+    "c": "cd $dir && gcc '$fileName' -o '$workspaceRoot/build/$fileNameWithoutExt' -std=c23 -Wall -Wpedantic -Wextra && echo 'compilation ends.' && '$workspaceRoot/build/$fileNameWithoutExt'"
+  }
+}
